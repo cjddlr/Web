@@ -1,0 +1,22 @@
+.sidebar{
+  background-color: #222;
+  width: 270px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left : 0;
+  z-index: 9999;
+  box-shadow : 6px 0px 20px 2px gray;
+}
+
+.sidebar button {
+  outline : none;
+  background-color : black;
+  color : red;
+  padding : 10px;
+  border : none;
+  position : absolute;
+  display : block;
+  left : 270px;
+  top : 30px;
+}
