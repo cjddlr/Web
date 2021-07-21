@@ -1,0 +1,67 @@
+html{
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+}
+
+body{
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.backgroundImage {
+  width: inherit;
+  height: inherit;
+}
+
+#card {
+  position: absolute;
+  top: 25%;
+  height: 50%;
+  width: 400px;
+  
+  transform: translate(185%);
+  border-radius: 2px;
+  background-color: transparent;
+  backdrop-filter: blur(1px);
+  box-shadow: 0px 0px 2px #1c1c1c; 
+  cursor: move;
+  transition: 0.5s;
+}
+
+#card2 {
+  position: absolute;
+  top: 25%;
+  height: 50%;
+  width: 400px;
+  transform: translate(185%);
+  border-radius: 2px;
+  background-color: transparent;
+  backdrop-filter: blur(5px);
+  box-shadow: 0px 0px 30px #57f70c; 
+  cursor: move;
+  /* transition: 100ms; */
+}
+
+h1, p{
+  position: relative;
+  color: white;
+  margin: 0px;
+  text-shadow: 0px 5px 10px gray;
+  text-align: center;
+}
+
+#cardTitle {
+  text-align: center;
+  margin-top: 10px;
+}
+
+#cardImage {
+  display: block;
+  width: 50%;
+  max-width: 300px;
+  margin: 20px auto 20px auto;
+}
+
